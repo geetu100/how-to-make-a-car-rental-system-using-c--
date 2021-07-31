@@ -124,7 +124,7 @@ void time()
 	{
 	Boarder();
 	gotoxy(20,20);
-	std::cout <<"\n\n\n\n\n\t  |\t\t\t\tDATE: "<<currentDateTime() << std::endl;
+	std::cout <<"\n\tDATE: "<<currentDateTime() << std::endl;
 	Sleep(900);
 	system("cls");
 	i++;
